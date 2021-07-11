@@ -14,7 +14,11 @@
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
+#helloword 
 echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
+#passwall
 echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
+#infinityfreedom主题
 echo 'src-git infinityfreedom https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git' >>feeds.conf.default
+#adguardhome 广告过滤
 echo 'src-git adguardhome https://github.com/kongfl888/luci-app-adguardhome.git' >>feeds.conf.default
